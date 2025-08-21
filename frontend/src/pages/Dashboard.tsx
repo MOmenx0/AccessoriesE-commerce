@@ -8,6 +8,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { productsApi, ordersApi } from '../services/api';
 import { ProductDto, OrderDto } from '../types/product';
 import toast from 'react-hot-toast';
+import AddProductModal from '../components/dashboard/AddProductModal';
 
 const Dashboard: React.FC = () => {
   const { user } = useAuth();
@@ -17,6 +18,7 @@ const Dashboard: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedStatus, setSelectedStatus] = useState('all');
+  const [isAddProductModalOpen, setIsAddProductModalOpen] = useState(false);
 
   const tabs = [
     { id: 'overview', label: 'Overview', icon: TrendingUp },
@@ -38,8 +40,8 @@ const Dashboard: React.FC = () => {
         productsApi.getAll(),
         ordersApi.getAll()
       ]);
-      setProducts(productsResponse.data);
-      setOrders(ordersResponse.data);
+      setProducts(productsResponse);
+      setOrders(ordersResponse);
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
       toast.error('Failed to load dashboard data');
@@ -122,6 +124,11 @@ const Dashboard: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <AddProductModal
+        isOpen={isAddProductModalOpen}
+        onClose={() => setIsAddProductModalOpen(false)}
+        onProductAdded={fetchDashboardData}
+      />
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <motion.div
@@ -308,6 +315,7 @@ const Dashboard: React.FC = () => {
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={() => setIsAddProductModalOpen(true)}
                     className="bg-luxury-500 text-white px-4 py-2 rounded-lg hover:bg-luxury-600 transition-colors flex items-center space-x-2"
                   >
                     <Plus className="w-5 h-5" />

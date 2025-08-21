@@ -435,7 +435,7 @@ const Products: React.FC = () => {
                   <div className="flex">
                     <div className="w-48 h-48 flex-shrink-0">
                       <img
-                        src='../wwwroot/images/download (2).jpg'
+                        src={`${API_URL}${product.imageUrl}`}
                         alt={product.name}
                         className="w-full h-full object-cover"
                         onError={handleImageError}

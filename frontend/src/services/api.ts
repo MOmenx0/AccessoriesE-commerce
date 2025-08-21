@@ -1,7 +1,12 @@
 import axios from 'axios';
 import { AuthResponse, LoginRequest, RegisterRequest, UserDto } from '../types/auth';
-import { ProductDto, ProductFilterRequest } from '../types/product';
-import { OrderDto, CreateOrderRequest } from '../types/order';
+import {
+  CreateProductRequest,
+  ProductDto,
+  ProductFilterRequest,
+  OrderDto,
+  CreateOrderRequest,
+} from '../types/product';
 
 const API_BASE_URL = 'http://localhost:5000/api';
 
@@ -64,6 +69,11 @@ export const productsApi = {
 
   getBrands: async (): Promise<string[]> => {
     const response = await api.get<string[]>('/products/brands');
+    return response.data;
+  },
+
+  create: async (product: CreateProductRequest): Promise<ProductDto> => {
+    const response = await api.post<ProductDto>('/products', product);
     return response.data;
   },
 };
