@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\AccessoriesE-commerce\\AccessoriesEcommerce.API\\wwwroot\\images\\download (2).jpg",
+      "PackagePath": "staticwebassets\\images\\download (2).jpg"
+    },
+    {
+      "Id": "E:\\AccessoriesE-commerce\\AccessoriesEcommerce.API\\wwwroot\\images\\download (3).jpg",
+      "PackagePath": "staticwebassets\\images\\download (3).jpg"
+    },
+    {
+      "Id": "E:\\AccessoriesE-commerce\\AccessoriesEcommerce.API\\wwwroot\\images\\download (4).jpg",
+      "PackagePath": "staticwebassets\\images\\download (4).jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AccessoriesEcommerce.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AccessoriesEcommerce.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AccessoriesEcommerce.API.props",
+      "PackagePath": "build\\AccessoriesEcommerce.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AccessoriesEcommerce.API.props",
+      "PackagePath": "buildMultiTargeting\\AccessoriesEcommerce.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AccessoriesEcommerce.API.props",
+      "PackagePath": "buildTransitive\\AccessoriesEcommerce.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

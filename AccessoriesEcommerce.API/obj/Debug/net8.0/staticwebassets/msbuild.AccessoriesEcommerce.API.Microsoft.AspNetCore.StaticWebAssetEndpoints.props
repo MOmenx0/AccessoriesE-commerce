@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AccessoriesEcommerce.API/images/download (2).i03hk8ejuf.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download (2).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i03hk8ejuf"},{"Name":"integrity","Value":"sha256-gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN\u002ByP0="},{"Name":"label","Value":"_content/AccessoriesEcommerce.API/images/download (2).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6607"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN\u002ByP0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:49:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AccessoriesEcommerce.API/images/download (2).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download (2).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN\u002ByP0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6607"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN\u002ByP0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:49:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AccessoriesEcommerce.API/images/download (3).brlkogbz7i.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download (3).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"brlkogbz7i"},{"Name":"integrity","Value":"sha256-2YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs\u002B1HLJZE="},{"Name":"label","Value":"_content/AccessoriesEcommerce.API/images/download (3).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1826"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs\u002B1HLJZE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:49:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AccessoriesEcommerce.API/images/download (3).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download (3).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs\u002B1HLJZE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1826"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs\u002B1HLJZE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:49:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AccessoriesEcommerce.API/images/download (4).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download (4).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oYgjY642gXN4RHTZDRCB\u002BWkE/xEr7jBj7Zzb5vwvjVY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3952"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oYgjY642gXN4RHTZDRCB\u002BWkE/xEr7jBj7Zzb5vwvjVY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:49:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AccessoriesEcommerce.API/images/download (4).x82xfwhky6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\download (4).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x82xfwhky6"},{"Name":"integrity","Value":"sha256-oYgjY642gXN4RHTZDRCB\u002BWkE/xEr7jBj7Zzb5vwvjVY="},{"Name":"label","Value":"_content/AccessoriesEcommerce.API/images/download (4).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3952"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022oYgjY642gXN4RHTZDRCB\u002BWkE/xEr7jBj7Zzb5vwvjVY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:49:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

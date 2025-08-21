@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "images/download (2).i03hk8ejuf.jpg",
+      "AssetFile": "images/download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN+yP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:49:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i03hk8ejuf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN+yP0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/download (2).jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/download (2).jpg",
+      "AssetFile": "images/download (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN+yP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:49:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gn297H8q2r0Hjuiuzdjx/bDYaZ/hv5oSiSzKDBN+yP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/download (3).brlkogbz7i.jpg",
+      "AssetFile": "images/download (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs+1HLJZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:49:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "brlkogbz7i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs+1HLJZE="
+        },
+        {
+          "Name": "label",
+          "Value": "images/download (3).jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/download (3).jpg",
+      "AssetFile": "images/download (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs+1HLJZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:49:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2YxYHtNyJyHSHOW0LeffZWpPLRjQRjZeoRLs+1HLJZE="
+        }
+      ]
+    },
+    {
+      "Route": "images/download (4).jpg",
+      "AssetFile": "images/download (4).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oYgjY642gXN4RHTZDRCB+WkE/xEr7jBj7Zzb5vwvjVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:49:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oYgjY642gXN4RHTZDRCB+WkE/xEr7jBj7Zzb5vwvjVY="
+        }
+      ]
+    },
+    {
+      "Route": "images/download (4).x82xfwhky6.jpg",
+      "AssetFile": "images/download (4).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oYgjY642gXN4RHTZDRCB+WkE/xEr7jBj7Zzb5vwvjVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:49:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x82xfwhky6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oYgjY642gXN4RHTZDRCB+WkE/xEr7jBj7Zzb5vwvjVY="
+        },
+        {
+          "Name": "label",
+          "Value": "images/download (4).jpg"
+        }
+      ]
+    }
+  ]
+}
